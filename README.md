@@ -1,83 +1,45 @@
-# 🍔 FoodExpress – Modern Food Delivery Web Application
+# FoodExpress – Modern Food Delivery Web Application
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-Enabled-blue?logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-6-purple?logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC?logo=tailwind-css)
-![License](https://img.shields.io/badge/License-MIT-green)
+FoodExpress is a modern, scalable, and high-performance food delivery web application developed using **React 19**, **TypeScript**, and **Vite 6**. The application is designed to deliver a seamless and responsive user experience, enabling users to browse food items, explore restaurants, and interact with a clean and intuitive interface.
+
+The project follows a component-based architecture and leverages modern frontend development practices to ensure maintainability, scalability, and optimal performance.
 
 ---
 
-## 🚀 Overview
+## Features
 
-FoodExpress is a modern, scalable, and high-performance food delivery web application built using **React 19**, **TypeScript**, and **Vite 6**. The application provides a seamless and responsive user experience for browsing food items, exploring restaurants, and managing cart interactions.
-
-It follows a **component-based architecture** and implements modern frontend practices for performance, maintainability, and scalability.
-
----
-
-## 🎥 Demo Video
-
-👉 [Watch Demo](./food.mp4)
+- Browse food items and restaurant listings  
+- Search functionality for quick navigation  
+- Shopping cart management  
+- Dark mode support  
+- Responsive design for multiple devices  
+- Fast rendering and optimized performance  
+- Smooth client-side routing  
 
 ---
 
-## 📸 UI Preview
+## Technology Stack
 
-### 🏠 Home Page
-![Home](./screenshots/home.png)
+### Core Technologies
+- React 19  
+- TypeScript  
+- Vite 6  
 
-### 🍽️ Menu Page
-![Menu](./screenshots/menu.png)
+### Styling and Navigation
+- Tailwind CSS 4  
+- React Router 7  
 
-### 🛒 Cart Page
-![Cart](./screenshots/cart.png)
-
-> 📌 Add real screenshots inside `/screenshots` folder
-
----
-
-## ✨ Features
-
-- 🍕 Browse food items and restaurants  
-- 🔍 Search functionality  
-- 🛒 Shopping cart management  
-- 🌙 Dark mode support  
-- ⚡ Fast performance with Vite  
-- 📱 Fully responsive design  
-- 🔄 Smooth navigation with React Router  
-
----
-
-## 🛠️ Technology Stack
-
-### 🔹 Core Technologies
-- **React 19** – Component-based UI development  
-- **TypeScript** – Type-safe and scalable code  
-- **Vite 6** – Lightning-fast development and build tool  
-
-### 🔹 Styling & Navigation
-- **Tailwind CSS 4** – Utility-first styling framework  
-- **React Router 7** – Client-side routing  
-
-### 🔹 State Management
-- **React Context API**
-  - Cart management  
-  - Search functionality  
+### State Management
+- React Context API  
+  - Cart state management  
+  - Search state handling  
   - Theme (Dark Mode) control  
 
 ---
 
-## ⚠️ Note
+## Project Structure
 
-Some libraries such as **lucide-react**, **motion**, and **express** are present in the project dependencies but are not currently used in the active implementation.
+The application is structured using reusable and modular components to ensure clean code organization and scalability. State management is handled centrally using the Context API, enabling efficient data flow across components.
 
 ---
 
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/Deepanshu-Surve/FoodExpress.git
-cd FoodExpress
-npm install
-npm run dev
