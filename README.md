@@ -6,6 +6,9 @@ The project follows a component-based architecture and leverages modern frontend
 
 ---
 
+ Live Website
+🚀(https://food-express-omega-five.vercel.app/)
+
 ## Features
 
 - Browse food items and restaurant listings  
